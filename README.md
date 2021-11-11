@@ -1,2 +1,2 @@
-# WordAnalyzer
+# wordFrequencyAnalyzer
 Created with CodeSandbox

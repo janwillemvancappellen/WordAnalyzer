@@ -1,0 +1,112 @@
+.wrapper {
+  text-align: left;
+}
+
+#word-analyzer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  max-width: 500px;
+}
+
+h1 {
+  font-size: 1.25em;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 250px;
+  margin-bottom: 2em;
+  border: 1px solid black;
+  padding: 0.5em;
+  border-radius: 0.25em;
+}
+
+.results-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 250px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+.input-group label {
+  font-size: 0.75em;
+  margin-bottom: 0.25em;
+}
+
+input-group textarea,
+input,
+button {
+  height: 2em;
+}
+
+/* table styling */
+
+.results-container {
+  border: 1px solid black;
+  border-radius: 0.25em;
+  max-width: 250px;
+  padding: 0.5em;
+}
+
+.results-frequency-totals {
+  display: flex;
+  margin-bottom: 1em;
+  justify-items: center;
+}
+
+.results-frequency-totals > div {
+  flex: 1 0 auto;
+  text-align: center;
+}
+
+.title {
+  font-size: 0.85em;
+  font-weight: 700;
+}
+
+.value {
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.results-table {
+  width: 100%;
+  border: 1px solid;
+  border-radius: 0.25em;
+  border-collapse: collapse;
+  padding: 0.25em 0.25em;
+}
+
+.results-table th {
+  padding: 0.25em 0.25em;
+  text-align: center;
+}
+
+.results-table tr {
+  border-bottom: 1px solid;
+}
+
+.results-table td {
+  width: 50%;
+  text-align: center;
+  padding: 0.25em 0.25em;
+}
+
+@media screen and (min-width: 400px) {
+  #word-analyzer {
+    flex-direction: row;
+    max-width: 800px;
+  }
+
+  .results-container {
+    margin-left: 1em;
+  }
+}
